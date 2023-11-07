@@ -1,0 +1,54 @@
+
+.header {
+    height: 70px;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vh 5vh;
+    border-bottom: 1px transparent;
+    box-shadow: 0px -7px 10px black;
+
+
+    &-right {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+
+        &-icon {
+            height: 60px;
+        }
+
+        &-nav{
+            display: flex;
+            gap: 35px;
+
+            a{
+                color: black;
+            }
+
+            a:hover{
+                color: #ff764d;
+            }
+
+        }
+    }
+
+    &-left{
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        a{
+            color: #0000ff;
+        }
+
+        &-log{
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 20px
+        }
+    }
+}

@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ableton clone</title>
+
+    <link rel="stylesheet" href="./styles/styles.css"/>
 </head>
 <body>
     <header class="header">
-        <div class="hader-right">
+        <div class="header-right">
             <img src="./sources/abletonlive.svg" class="header-right-icon" alt="Ableton Live"/>
             <nav class="header-right-nav">
-                <p>Live</p>
-                <p>Push</p>
-                <p>Link</p>
-                <p>Shop</p>
-                <p>Packs</p>
-                <p>Help</p>
-                <p>More +</p>
+                <a href="/">Live</a>
+                <a href="/">Push</a>
+                <a href="/">Link</a>
+                <a href="/">Shop</a>
+                <a href="/">Packs</a>
+                <a href="/">Help</a>
+                <a href="/">More +</a>
             </nav>
         </div>
         <div class="header-left">
@@ -27,11 +29,61 @@
             </nav>
         </div>
     </header>
-    <main>
+    <main class="main">
+        <nav class="main-nav">
+            <a href="/">About</a>
+            <a href="/">Jobs</a>
+            <a href="/">Apprenticeships</a>
+        </nav>
+        <section class="main-intro">
+            <img src="https://ableton-production.imgix.net/about/header.jpg?fit=crop&auto=format&fm=jpg" alt="studio" class="main-intro-img"/>
+            <p class="main-intro-text">We make Live, Push and Link — unique software and hardware for music creation and performance. With these products, our community of users creates amazing things.</p>
+            <p class="main-intro-text2">Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used by a community of dedicated musicians, sound designers, and artists from across the world.</p>
+        </section>
 
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="footer-container">
+            <h1 class="footer-container-title">Ableton</h1>
+            <div class="footer-row">
+                <section class="footer-row-content">
+                    <a>Register Live or Push ></a>
+                    <a>About ableton ></a>
+                    <a>Jobs ></a>
+                    <div class="social">
+                        <div class="social-facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg></div>
+                        <div class="social-tweetter"></div>
+                        <div class="social-youtube"></div>
+                        <div class="social-instagram"></div>
+                    </div>
+                </section>
+                <section class="footer-row-content">
+                    <h1>Education</h1>
+                    <a>Offers for students and teachers ></a>
+                    <a>Ableton for the Classroom ></a>
+                    <a>Ableton for Colleges and Universities ></a>
+                </section>
+                <section class="footer-row-content">
+                    <h1>Sign up to our newsletter</h1>
+                    <p>Enter your email address to stay up to date with the</p>
+                    <p>latest offers, tutorials, downloads, surveys and more.</p>
+                    <div class="sign">
+                        <div class="sign-input">
+                            <input type="text" id="nombre" required>
+                            <label for="nombre">Email address</label>
+                        </div>
+                        <button class="sign-button">Sign up</button>
+                </section>
+            </div>
+            <div class="footer-row">
+                <section class="footer-row-content">
+                    <a>Register Live or Push ></a>
+                    <a>About ableton ></a>
+                    <a>Jobs ></a>
+                </section>
+            </div>
 
+        </div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,104 @@
+.footer{
+    width: 100%;
+    border-top: 1px transparent;
+    box-shadow: 0px 7px 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-container{
+        width: 82%;
+        padding-top: 105px;
+
+        &-title{
+            font-size: 60px;
+            font-weight: 600;
+            padding-bottom: 52px;
+        }
+    }
+
+    &-row{
+        display: flex;
+        padding-bottom: 85px;
+
+        &-content{
+            width: 30%;
+            padding-right: 10px;
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                font-size: 16px;
+                font-weight: 700;
+                padding: 5px 0px;
+            }
+
+            a{
+                font-size: 16px;
+                padding: 5px 0px;
+            }
+
+            p{
+                font-size: 16px;
+                padding: 5px 0px;
+            }
+
+            .social{
+                &-facebook{
+                    background-color: #1877F2;
+                    width: 50px;
+                    text-align: center;
+
+                    svg{
+                        width: auto;
+                        padding: 10px;
+                        color: white;
+                    }
+                }
+            }
+            
+            .sign{
+                width: 100%;
+                display: flex;
+
+
+                &-input{
+                    width: 70%;
+                    position: relative;
+            
+                    input {
+                        width: 100%;
+                        background-color: #d9d9d9;
+                        padding: 10px 8px;
+                        border: 1px transparent;
+                        font-size: 16px;
+                        margin: 0;
+                        box-sizing: border-box;
+                    }
+            
+                    label {
+                        position: absolute;
+                        top: 10px;
+                        left: 10px;
+                        pointer-events: none;
+                        color: #777; /* Color de texto del label */
+                    }
+            
+                    input:focus + label, input:valid + label {
+                        display: none;
+                    }
+
+                }
+
+                &-button{
+                    width: 30%;
+                    color: white;
+                    background-color: #0000ff;
+                    font-weight: 600;
+                    border: 1px transparent;
+                    border-radius: 0px;
+                }
+            }
+        }
+    }
+}

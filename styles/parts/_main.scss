@@ -1,0 +1,43 @@
+.main{
+    padding-bottom: 105px;
+    &-nav{
+        height: 65px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding-left: 5vh;
+
+        a{
+            color: black;
+        }
+
+        a:hover{
+            color: #ff764d;
+        }
+    }
+
+    &-intro{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-img{
+            text-align: center;
+            max-width: 82%;
+            margin: 0px auto;
+            margin-bottom: 10vh;
+        }
+
+        &-text{
+            width: 50%;
+            font-size: 26px;
+            font-weight: 500;
+            padding-bottom: 3vh;
+        }
+
+        &-text2{
+            width: 50%;
+        }
+    }
+}
